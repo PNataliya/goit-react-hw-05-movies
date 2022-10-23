@@ -8,6 +8,7 @@ export const theme = {
     secondary: '#05a',
     accent: '#ff5722',
     muted: '#f6f6f6',
+    mainBackground: ['linear-gradient(to left, #2F4F4F, #8FBC8F)'],
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {

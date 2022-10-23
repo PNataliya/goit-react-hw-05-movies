@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom';
-import { AppBar } from './AppBar/AppBar';
+import { Header } from './Header/Header';
 import { Box } from './Box';
 
 export const Layout = () => {
   return (
-    <Box display="grid" gridTemplateColumns="200px 1fr">
-      <AppBar />
+    <Box display="flex" flexDirection="column" wigth="100%">
+      <Header />
       <Outlet />
     </Box>
   );

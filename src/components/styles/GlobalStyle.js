@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { theme } from '../styles/theme';
 import 'modern-normalize';
 
 export const GlobalStyle = createGlobalStyle`
@@ -9,6 +10,9 @@ export const GlobalStyle = createGlobalStyle`
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: ${theme.colors.mainBackground};
+    min-height: 100vh;
+    font-style: normal;
   }
 
   code {
