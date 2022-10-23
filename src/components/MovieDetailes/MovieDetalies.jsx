@@ -3,6 +3,7 @@ import { Outlet, useLocation, useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Suspense } from 'react';
 import { HiArrowUturnLeft } from 'react-icons/hi2';
+// import defaultPoster from '../../images/noposter.jpg';
 import {
   MovieDetailsStyled,
   BackLinkStyled,

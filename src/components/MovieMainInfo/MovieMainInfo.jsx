@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-// import defaultPoster from '../../images/noposter.jpg';
+
 import {
   MovieMainInfoStyled,
   Poster,
@@ -13,7 +13,8 @@ import {
 export const MovieMainInfo = ({ poster, title, score, overview, genres }) => {
   //   console.log(poster);
   //   console.log(title);
-
+  // const noPosterAvaliable =
+  //   'https://yt3.ggpht.com/AAKF_677TIvjFz_9xFF0R6PgiVd0kRpEtY6APSxSDRP65nXg8hkn9NFsz2bRd9_Z37DJ9D_b=s900-c-k-c0x00ffffff-no-rj';
   // function fetchFilmPhoto(poster) {
   //   const noPosterAvaliable = defaultPoster;
 
